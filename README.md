@@ -21,6 +21,8 @@ Over the decades, research has shown that one of the economic determinant of dep
 
 This project stemmed from a resolve to mitigate/extenuate the depressive effects of Financial worries on Human Life and wellness. It seeks to provide a financial paln/structure by requesting only two informations  - Monthly Financial Income as well as Marital Status - from its users. It aims at reducing the amount of people living from Paycheck-to-Paycheck for the rest of their lives by practicing a simple and basic wealth creation technique - management and savings.
 
+Fun Fact: This project was inspired off a conversation with a friend who was earning fairly well but was unable to save adequately. Decided to code my way into solving the challenge!
+
 (Citation: PubMed Central (PMC), National Library of Medicine, https://pmc.ncbi.nlm.nih.gov/articles/PMC8863240/)
 
 
@@ -41,7 +43,7 @@ import math
 salary = int(input('How much do you earn monthly? E.g - 200000, 500000, 1000000, 2000000\n Do not add commas'))
 status = input('What\'s your marital status? E.g - single, married')
 
-Salary_plan_D = [{'category':'Tithe', 'value':(10/100 * salary)}, #=== Tithe is for God 
+Salary_plan_D = [{'category':'Tithe', 'value':(10/100 * salary)}, 
                {'category':'Savings', 'value':(50/100 * salary)}, #=== Savings is 50%
                {'category':'Survival', 'value':(15/100 * salary)}, #=== Survival is 15%
                {'category':'Fittings', 'value': (15/100 * salary)}, #=== Fittings is for equipping your body and home
